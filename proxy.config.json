@@ -1,0 +1,11 @@
+{
+    "/api": {
+      "target": "https://t-bridge.s3.eu-west-1.amazonaws.com/",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/api": ""
+      }
+    }
+  }
+  
